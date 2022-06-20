@@ -3,8 +3,8 @@ import seaborn as sns
 from matplotlib import pyplot as plt
 # color settings:
 def Graphset():
-    sns.set(rc={'axes.facecolor':'#EBE0BA',
-                'figure.facecolor':'#E0D3AF',
+    sns.set(rc={'axes.facecolor':'#ffffff',
+                'figure.facecolor':'#E2E2E2',
                 'grid.color':'#E0D3AF',
                 'axes.edgecolor':'#424949',
                 'axes.labelcolor':'#424949',
