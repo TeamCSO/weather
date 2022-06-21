@@ -14,7 +14,7 @@ class predictor:
         
         preds_array = np.array(preds)
         preds_mean = np.mean(preds_array, axis=0)
-        return np.exp(preds_mean)
+        return preds_mean
         
     def predict_xgb(self, models:list, test):
         preds = []
@@ -26,7 +26,7 @@ class predictor:
         
         preds_array = np.array(preds)
         preds_mean = np.mean(preds_array, axis=0)
-        return np.exp(preds_mean)
+        return preds_mean
         
     def predict_rf(self, models:list, test):
         preds = []
@@ -38,7 +38,7 @@ class predictor:
         
         preds_array = np.array(preds)
         preds_mean = np.mean(preds_array, axis=0)
-        return np.exp(preds_mean)
+        return preds_mean
         
     def predict_mlpr(self, models:list, test):
         preds = []
@@ -50,4 +50,4 @@ class predictor:
         
         preds_array = np.array(preds)
         preds_mean = np.mean(preds_array, axis=0)
-        return np.exp(preds_mean)
+        return preds_mean
