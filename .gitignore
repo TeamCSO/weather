@@ -1,2 +1,5 @@
 .DS_Store
 minsung/data/df
+.ipynb_checkpoints
+Pipfile
+Pipfile.lock
