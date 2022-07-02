@@ -51,3 +51,15 @@ class predictor:
         preds_array = np.array(preds)
         preds_mean = np.mean(preds_array, axis=0)
         return preds_mean
+    
+    def predict_ridge(self, models:list, test):
+        preds = []
+        
+        for model in models:
+            
+            pred = model.predict(test)
+            preds.append(pred)
+        
+        preds_array = np.array(preds)
+        preds_mean = np.mean(preds_array, axis=0)
+        return preds_mean

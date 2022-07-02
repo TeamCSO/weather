@@ -27,3 +27,6 @@ mlpr:
   hidden_layer_sizes: [100,100,100]
   batch_size: 101
   max_iter: 500
+
+ridge:
+  alpha: 0.1
